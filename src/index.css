@@ -15,7 +15,7 @@ code {
     monospace;
 }
 .dropbtn {
-  background-color: #040faa;
+  background-color: #00ccffb9;
   color: white;
   padding: 5px;
   font-size: 15px;
@@ -48,5 +48,5 @@ code {
   display: block;
 }
 .dropdown:hover .dropbtn {
-  background-color: #2055b8;
+  background-color: #208db8be;
 }

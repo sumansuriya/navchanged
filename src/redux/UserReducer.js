@@ -87,6 +87,10 @@ export const authenticateEmployeeAction = (payload) => {
 
       localStorage.setItem("empId", response.data.empid);
       const empid = localStorage.getItem("empId");
+      // const firstname =localStorage.setItem("firstname", response.data.firstname);
+      // const name = localStorage.getItem(firstname)
+
+      // console.log(name);
       console.log(empid);
       // NOT DOING THE ACTIVITY OF 5 SECONDS :: page will be redirected to anohter page.
     } else {

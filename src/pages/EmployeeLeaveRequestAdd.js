@@ -45,6 +45,11 @@ export const EmployeeLeaveRequestAdd = () => {
   const updateLeaveType = (e) => setLeaveType(e.target.value);
 
   const updateTasks = (e) => setTasks(e.target.value);
+
+  const firstname = state.employeeProfile.empProfile.firstname;
+
+const empid = state.employeeProfile.empProfile.empid;
+
   
 
   const addNewLeaveRequest = (e) => {
@@ -179,8 +184,35 @@ export const EmployeeLeaveRequestAdd = () => {
           </div>
         </div>
       )}
+      {/* <div className="row mb-1 justify-content-center">
+       
+       <input
+        type="text"
+        value={localStorage.getItem("firstname")}
+        className="form-control form-control-lg mb-1 w-50"
+        placeholder="Enter emp Id"
+        required
+        readOnly
+      />
+      
+      
+     </div> */}
+      
 
       <form ref={formEl} className="mx-4 needs-validation" noValidate>
+      <div className="row mb-1 justify-content-center">
+       
+       <input
+        type="text"
+        value={localStorage.getItem("empId")}
+        className="form-control form-control-lg mb-1 w-50"
+        placeholder="Enter emp Id"
+        required
+        readOnly
+      />
+      
+      
+     </div>
         <div className="row mb-1 justify-content-center">
           <input
             type="text"

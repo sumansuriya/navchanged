@@ -51,7 +51,7 @@ export const EmployeeTaskList = () => {
     dispatch(updateRenderAction(item));
 
     // navigateing to the page
-    history.push("/employee-task-add");
+    history.push("/employee-task-update");
   };
 
   console.log(state.employeeTask.employeeTaskList);

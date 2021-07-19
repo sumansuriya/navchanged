@@ -186,6 +186,19 @@ const signOut = () => {
 
       <form ref={formEl} className="mx-4 needs-validation" noValidate>
       <div className="row mb-1 justify-content-center">
+       
+       <input
+        type="text"
+        value={localStorage.getItem("empId")}
+        className="form-control form-control-lg mb-1 w-50"
+        placeholder="Enter emp Id"
+        required
+        readOnly
+      />
+      
+      
+     </div>
+      <div className="row mb-1 justify-content-center">
           <input
             type="text"
             value={reason}

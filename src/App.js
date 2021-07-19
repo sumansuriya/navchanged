@@ -41,6 +41,7 @@ import { EmployeeLeaveStatusList } from "./pages/EmployeeLeaveStatusList";
 import { EmployeeTaskAssignCheck } from "./pages/EmployeeTaskAssignCheck";
 import { EmployeeTaskAssign } from "./pages/EmployeeTaskAssign";
 import { EmployeeReportCheck } from "./pages/EmployeeReportCheck";
+import { EmployeeTaskUpdate } from "./pages/EmployeeTaskUpdate";
 
 function App() {
   const history = useHistory();
@@ -88,6 +89,7 @@ function App() {
       <Route exact path="/admin-leave-update" component={AdminLeaveRequestUpdate} />
       <Route exact path="/employee-leave-checkform" component={EmployeeLeaveCheck} />
       <Route exact path="/employee-leave-checklist" component={EmployeeLeaveStatusList} />
+      <Route exact path="/employee-task-update" component={EmployeeTaskUpdate} />
 
       
       <Route exact path="/employee-profile" component={EmployeeProfile} />
